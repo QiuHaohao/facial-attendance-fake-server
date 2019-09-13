@@ -1,0 +1,57 @@
+{
+	"/students": {
+		"lid": {
+			"AY19S1TS4": [
+				{"name": "John Doe", "mid": "U1621232B"},
+				{"name": "Mary Everyperson", "mid": "U1653741J"}
+			],
+			"AY19S1TS5": [
+				{"name": "A. A. Abdildayeva", "mid": "U1661298D"},
+				{"name": "Ah Ming", "mid": "U1621939C"}
+			]
+		}
+	},
+	"/labs": {
+		"tid": {
+			"1": [
+				{"lid": "AY19S1TS4"},
+				{"lid": "AY19S1TS5"}
+			]
+		}
+	},
+	"/session": {
+		"lid": {
+			"1": [
+				{"sid": "AY19S1TS4_1568348673"},
+				{"sid": "AY19S1TS4_1568345818"}
+			]
+		}
+	},
+	"/attendance":{
+
+		"sid": {
+			"AY19S1TS4_1568348673": [
+				{"name": "John Doe", "mid": "U1621232B", "status": 0},
+				{"name": "Mary Everyperson", "mid": "U1653741J", "status": 1}
+			],
+			"AY19S1TS4_1568345818": [
+				{"name": "A. A. Abdildayeva", "mid": "U1661298D", "status": 0},
+				{"name": "Ah Ming", "mid": "U1621939C", "status": 2}
+			]
+		},
+		"mid": {
+			"U1621232B": [
+				{"sid": "AY19S1TS4_1568348673", "status": 0}
+			], 
+			"U1653741J": [
+				{"sid": "AY19S1TS4_1568348673", "status": 1}
+			], 
+			"U1661298D": [
+				{"sid": "AY19S1TS4_1568345818", "status": 0}
+			], 
+			"U1621939C": [
+				{"sid": "AY19S1TS4_1568345818", "status": 2}
+			]
+		}
+	}
+}
